@@ -15,7 +15,7 @@
 
 
 body{
-    background-color: var(--background);
+    background-color: var(--background)
 }
 
 button{
@@ -25,10 +25,13 @@ button{
 
 hr{
     height: 1px;
-    width: 200px;
+    width: 150px;
 }
 
-img{}
+img{
+    width: 50px;
+    height: 50px;
+}
 
 .name{
     display: flex;
@@ -65,9 +68,12 @@ img{}
 
 .links{
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    top: 400px;
+    left: 1300px;
 }
 
 .icons{
@@ -75,29 +81,26 @@ img{}
     padding-top: 15px;
 }
 
-.circle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    height: 80px;
-    background-color: whitesmoke;
-    border-radius: 35%;
-}
-
 .contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 300px;
     height: 75px;
     background-color: #c186fc;
     border-radius: 25px;
     font-size: 30px;
     font-weight: 600;
+    transition: all 1s ease;
+    cursor: pointer;
 }
 
 .links div{
     padding-bottom: 15px;
 }
 
+.icons a{
+    padding: 0px 8px;
+}
+
+.contact:hover{
+    width: 375px;
+    height: 93.75px;
+}

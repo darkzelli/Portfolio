@@ -2,6 +2,7 @@ import React from "react";
 import './Home.css';
 
 
+
 const Home = () => {
     return(
         <body>
@@ -24,12 +25,8 @@ const Home = () => {
                 </div>
                 <hr></hr>
                 <span className="icons">
-                    <span className="circle">
-                        <a href="https://github.com/darkzelli" target={"_blank"} rel="noreferrer"><img src=".../" alt="github"></img></a>
-                    </span>
-                    <span className="circle">
-                        <a href="https://www.linkedin.com/"><img src="https://www.linkedin.com/favicon.ico" alt="linkedIn"></img></a>
-                    </span>
+                    <a href="https://github.com/darkzelli" target={"_blank"} rel="noreferrer"><img src={require("./images/github-logo.png")} alt="github.png"></img></a>
+                    <a href="https://www.linkedin.com/" target={"_blank"} rel="noreferrer"><img src={require("./images/linkedin.png")} alt="linkedin.png"></img></a>
                 </span>
             </div>
         </body>
