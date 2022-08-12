@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    caret-color: transparent;
+}
+
+body{
+    background-color: #11081F;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.container{
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+    height: 100vh;
+}
