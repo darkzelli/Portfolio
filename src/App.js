@@ -8,7 +8,7 @@ const App = () => {
         <body className='app_body'>
             <div className='app_container'>
                 <section className='app_home'><Home /></section>
-                <section className='app_home'><Projects /></section>
+                <section className='app_projects'><Projects /></section>
             </div>
         </body>
     );
