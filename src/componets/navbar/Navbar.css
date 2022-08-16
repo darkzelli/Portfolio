@@ -1,0 +1,25 @@
+.nav_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_span ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_span ul li{
+    font-size: 20px;
+    color: lightgray;
+    padding: 0px 25px;
+}
+
+.sticky{
+    position: fixed;
+    top: 50px;
+    width: 100%;
+}
+
+

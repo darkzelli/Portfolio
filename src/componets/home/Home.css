@@ -7,15 +7,12 @@
     caret-color: transparent;
     font-family: 'Inter', sans-serif;
     color: white;
-    --background: #11081F;
+    --background: #0B0513;
     --light-purple: #A456F0;
 }
 
-
-
-
-body{
-    background-color: var(--background)
+li{
+    list-style: none;
 }
 
 button{
@@ -33,74 +30,111 @@ img{
     height: 50px;
 }
 
-.name{
-    display: flex;
-    color: white;
-    font-weight: 500;
-    letter-spacing: 0px;
-    font-size: 100px;
-}
-
-.introduction{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 250px;
-    padding-top: 350px;
-}
-
-.welcome{
-    display: flex;
-    font-size: 20px;
-    color: var(--light-purple);
-}
-
-.info{
-    display: flex;
-}
-
-.info p{
-    padding-left: 185px;
-    font-size: 20px;
-    letter-spacing: 2px;
-    color: var(--light-purple);
-}
-
-.links{
-    display: flex;
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    top: 400px;
-    left: 1300px;
-}
-
-.icons{
-    display: flex;
-    padding-top: 15px;
-}
-
-.contact{
-    width: 300px;
-    height: 75px;
-    background-color: #c186fc;
-    border-radius: 30px;
-    font-size: 30px;
-    font-weight: 600;
-    transition: all .5s ease;
-    cursor: pointer;
-}
 
 .links div{
     padding-bottom: 15px;
 }
 
-.icons a{
+
+/* new Code */
+.home_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background)
+}
+
+.home_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.home_content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 300px;
+}
+
+.home_introduction{
+    display: flex;
+    flex-direction: column;
+}
+
+.home_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 800px;
+    padding-top: 40px;
+}
+
+.home_links div{
+    padding-bottom: 15px;
+}
+
+
+.home_nextpage{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #A456F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    cursor: pointer;
+}
+
+.home_nextpage p{
+    font-size: 60px;
+}
+
+.home_name{
+    font-size: 100px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+
+.home_welcome, .home_info p{
+    color: #A456F0;
+    font-weight: 700;
+}
+
+.home_info p{
+    padding-left: 270px;
+    letter-spacing: 1.4px;
+}
+
+.home_icons{
+    display: flex;
+    padding-top: 15px;
+}
+
+.home_icons a{
     padding: 0px 8px;
 }
 
-.contact:hover{
-    width: 345px;
-    height: 86.25px;
+.home_contact{
+    display: flex;
+    height: 70px;
+    width: 270px;
+    background-color: #C186FC;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.home_welcome{
+    letter-spacing: 1.4px;
 }

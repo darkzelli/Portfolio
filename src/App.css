@@ -1,15 +1,13 @@
 
-body{
+.app_body{
     background-color: #11081F;
 }
 
-section{
-    height: 100vh;
+.app_home{
     scroll-snap-align: start;
 }
 
-.container{
+.app_container{
     scroll-snap-type: y proximity;
     overflow-y: scroll;
-    height: 100vh;
 }

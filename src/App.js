@@ -1,12 +1,14 @@
 import React from 'react';
-import Home from './componets/home/Home'
+import Home from './componets/home/Home';
+import Projects from './componets/projects/Projects';
 
 
 const App = () => {
     return(
-        <body className='app'>
-            <div className='container'>
-                <section id='home'><Home/></section>
+        <body className='app_body'>
+            <div className='app_container'>
+                <section className='app_home'><Home /></section>
+                <section className='app_home'><Projects /></section>
             </div>
         </body>
     );
