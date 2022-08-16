@@ -1,33 +1,38 @@
 import React from "react";
-import styles from './Home.module.css';
+import './Home.css';
 
 
 
-const Home = () => {
+function Home(){
     return(
-        <body>
-            <div className="introduction">
-                <p className="welcome">
-                    Hello,
-                </p>
-                <p className="name">
-                    I'm Zach
-                </p>
-                <span className="info">
-                    <p>
-                        Full Stack Developer
+        <body className="home-body">
+            <div className="home-container">
+                <div className="home-introduction">
+                    <p className="home-welcome">
+                      Hello,
                     </p>
-                </span>
-            </div>
-            <div className="links">
-                <div>
-                    <button className="contact">CONTACT</button>
+                    <p className="home-name">
+                        I'm Zach
+                    </p>
+                    <span className="home-info">
+                        <p>
+                            Full Stack Developer
+                        </p>
+                    </span>
                 </div>
-                <hr></hr>
-                <span className="icons">
-                    <a href="https://github.com/darkzelli" target={"_blank"} rel="noreferrer"><img src={require("./images/github-logo.png")} alt="github.png"></img></a>
-                    <a href="https://www.linkedin.com/" target={"_blank"} rel="noreferrer"><img src={require("./images/linkedin.png")} alt="linkedin.png"></img></a>
-                </span>
+                <div className="home-links">
+                    <div>
+                        <button className="home-contact">CONTACT</button>
+                    </div>
+                    <hr></hr>
+                    <span className="home-icons">
+                        <a href="https://github.com/darkzelli" target={"_blank"} rel="noreferrer"><img src={require("./images/github-logo.png")} alt="github.png"></img></a>
+                        <a href="https://www.linkedin.com/" target={"_blank"} rel="noreferrer"><img src={require("./images/linkedin.png")} alt="linkedin.png"></img></a>
+                    </span>
+                </div>    
+            </div>
+            <div className="home-nextpage">
+
             </div>
         </body>
     );
