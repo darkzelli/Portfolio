@@ -1,0 +1,21 @@
+.nextpage_content{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #A456F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    cursor: pointer;
+}
+
+.nextpage_content p{
+    font-size: 50px;
+}
+
+.nexpage_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
