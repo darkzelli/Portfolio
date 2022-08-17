@@ -1,0 +1,53 @@
+
+
+.animations_content p{
+    color: black;
+}
+
+
+.animations_button{
+    width: 60px;
+    height: 20px;
+    background-color: #A456F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.animations_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animations_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.animations_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.animations_circle{
+    display: flex;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.animations_content p{
+    padding-right: 13px;
+    font-weight: 650;
+}

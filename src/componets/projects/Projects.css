@@ -6,3 +6,36 @@
     height: 100vh;
     background-color: white;
 }
+
+.projects_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projects_title p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects_title_text{
+    font-size: 55px;
+    font-weight: 700;
+    color: black;
+}
+
+.projects_title hr{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 1px;
+    width: 375px;
+}
+
+.work{
+    color: white;
+}
